@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://c7b7md6sso7m4"]
+
+[ext_resource type="Material" path="res://flower/grass_material.tres" id="1"]
+
+[node name="Flower" type="Node2D" unique_id=189810995]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1407030905]
+material = ExtResource("1")
+offset_right = 640.0
+offset_bottom = 384.0
+mouse_filter = 2

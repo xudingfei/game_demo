@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://c7b7md6sso7m4"]
+
+[ext_resource type="Shader" uid="uid://clhjjy4pb4xvi" path="res://flower/flower.gdshader" id="1_l8ytj"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ini2n"]
+shader = ExtResource("1_l8ytj")
+shader_parameter/noise_scale = 0.003
+shader_parameter/dark_grass = Color(0.22, 0.38, 0.16, 1)
+shader_parameter/light_grass = Color(0.4, 0.56, 0.25, 1)
+shader_parameter/pixel_size = 2.0
+
+[node name="Flower" type="Node2D" unique_id=2062602593]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=436019400]
+material = SubResource("ShaderMaterial_ini2n")
+offset_right = 114.0
+offset_bottom = 109.0

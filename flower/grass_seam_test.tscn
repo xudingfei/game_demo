@@ -1,0 +1,33 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Material" path="res://flower/grass_material.tres" id="1"]
+
+[node name="GrassSeamTest" type="Node2D"]
+
+[node name="TileTopLeft" type="ColorRect" parent="."]
+material = ExtResource("1")
+offset_right = 320.0
+offset_bottom = 192.0
+mouse_filter = 2
+
+[node name="TileTopRight" type="ColorRect" parent="."]
+material = ExtResource("1")
+offset_left = 320.0
+offset_right = 640.0
+offset_bottom = 192.0
+mouse_filter = 2
+
+[node name="TileBottomLeft" type="ColorRect" parent="."]
+material = ExtResource("1")
+offset_top = 192.0
+offset_right = 320.0
+offset_bottom = 384.0
+mouse_filter = 2
+
+[node name="TileBottomRight" type="ColorRect" parent="."]
+material = ExtResource("1")
+offset_left = 320.0
+offset_top = 192.0
+offset_right = 640.0
+offset_bottom = 384.0
+mouse_filter = 2

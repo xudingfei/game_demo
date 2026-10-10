@@ -1,0 +1,17 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://bjkpot3qfmqog"]
+
+[ext_resource type="Shader" uid="uid://clhjjy4pb4xvi" path="res://flower/flower.gdshader" id="1"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/pixel_size = 2.0
+shader_parameter/patch_size = 322.0
+shader_parameter/random_seed = 0.0
+shader_parameter/color_steps = 7.0
+shader_parameter/patch_contrast = 1.15
+shader_parameter/detail_strength = 0.025
+shader_parameter/grass_density = 0.4
+shader_parameter/grass_contrast = 0.34
+shader_parameter/dark_grass = Color(0.32, 0.47, 0.23, 1)
+shader_parameter/light_grass = Color(0.48, 0.62, 0.32, 1)
+shader_parameter/debug_view = 0

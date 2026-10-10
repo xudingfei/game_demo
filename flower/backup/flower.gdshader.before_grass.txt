@@ -1,0 +1,44 @@
+shader_type canvas_item;
+render_mode unshaded;
+
+uniform sampler2D ground_noise : filter_linear, repeat_enable;
+
+// 数值越小，深浅色块越大
+uniform float noise_scale : hint_range(0.0001, 0.05) = 0.003;
+
+uniform vec4 dark_grass : source_color =
+    vec4(0.22, 0.38, 0.16, 1.0);
+
+uniform vec4 light_grass : source_color =
+    vec4(0.40, 0.56, 0.25, 1.0);
+
+// 世界坐标中的像素格大小
+uniform float pixel_size : hint_range(1.0, 16.0, 1.0) = 2.0;
+
+// 从顶点阶段传到片段阶段
+varying vec2 world_position;
+
+void vertex() {
+    world_position = (
+        MODEL_MATRIX * vec4(VERTEX, 0.0, 1.0)
+    ).xy;
+}
+
+void fragment() {
+    // 所有瓦片共用同一套像素网格
+    vec2 p = (
+        floor(world_position / pixel_size) + 0.5
+    ) * pixel_size;
+
+    // 使用地图中的位置读取噪声
+    float n = texture(ground_noise, p * noise_scale).r;
+
+    vec3 color = mix(
+        dark_grass.rgb,
+        light_grass.rgb,
+        n
+    );
+
+    // 保留原图的透明轮廓，适用于带透明边缘的瓦片
+    COLOR = vec4(color, COLOR.a);
+}
