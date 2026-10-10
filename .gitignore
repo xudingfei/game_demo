@@ -1,0 +1,17 @@
+# Local migration data and credentials
+outputs/gitlab-transfer/migration-*/
+outputs/gitlab-transfer/migration-work/
+outputs/gitlab-transfer/source-manifest*.json
+outputs/gitlab-transfer/source-manifest*.jsonl
+outputs/gitlab-transfer/pilot-project.json
+outputs/gitlab-transfer/使用说明.md
+outputs/gitlab-transfer/bin/
+outputs/gitlab-transfer*.zip
+outputs/gitlab-transfer-*.zip
+work/
+
+# Python and editor artefacts
+__pycache__/
+*.py[cod]
+.DS_Store
+
