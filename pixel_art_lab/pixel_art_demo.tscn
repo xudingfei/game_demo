@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://pixel_art_lab/pixel_art_demo.gd" id="1"]
+
+[node name="PixelArtLab" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="EditorHint" type="Label" parent="."]
+offset_left = 32.0
+offset_top = 32.0
+text = "PIXEL ART LAB · 六足火炮机甲\n按 F6 运行：原图 / 像素画对比\n支持像素细度、颜色数量和外描边调整。"

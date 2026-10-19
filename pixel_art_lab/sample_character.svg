@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="384" height="512" viewBox="0 0 384 512">
+  <defs>
+    <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#624636"/><stop offset="1" stop-color="#242638"/></linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe3ba"/><stop offset="1" stop-color="#cb8776"/></linearGradient>
+    <linearGradient id="coat" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8ad4c0"/><stop offset="0.45" stop-color="#419c9c"/><stop offset="1" stop-color="#28546d"/></linearGradient>
+    <linearGradient id="scarf" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffd185"/><stop offset="1" stop-color="#d97962"/></linearGradient>
+    <linearGradient id="boot" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#66515b"/><stop offset="1" stop-color="#292b40"/></linearGradient>
+  </defs>
+  <!-- 原创矢量示意人物：渐变和细线用于观察像素化后的变化。 -->
+  <path d="M124 246 Q87 266 91 347 L122 359 152 289Z" fill="#5b5571" stroke="#333648" stroke-width="5"/>
+  <path d="M146 352 L137 433 172 442 190 366 206 437 240 430 228 347Z" fill="#414b62" stroke="#303446" stroke-width="5"/>
+  <path d="M135 416 L172 421 174 458 Q154 474 119 465 L118 451Z" fill="url(#boot)" stroke="#303446" stroke-width="5"/>
+  <path d="M207 420 L241 416 249 451 Q274 459 259 470 L210 468Z" fill="url(#boot)" stroke="#303446" stroke-width="5"/>
+  <path d="M143 235 Q115 242 103 290 L87 331 Q86 345 102 352 L119 336 147 283Z" fill="url(#coat)" stroke="#303e50" stroke-width="5"/>
+  <path d="M92 332 Q78 343 85 357 Q99 368 111 353 L112 338Z" fill="url(#skin)" stroke="#5e4750" stroke-width="4"/>
+  <path d="M228 235 Q252 241 268 283 L284 322 265 340 230 291Z" fill="url(#coat)" stroke="#303e50" stroke-width="5"/>
+  <path d="M268 323 Q285 318 292 333 Q297 349 282 356 L268 342Z" fill="url(#skin)" stroke="#5e4750" stroke-width="4"/>
+  <path d="M149 226 Q185 216 224 230 L242 356 Q191 387 130 356Z" fill="url(#coat)" stroke="#303e50" stroke-width="5"/>
+  <path d="M189 259 L188 358 M143 319 L168 323 165 342 142 337" fill="none" stroke="#b4e1c3" stroke-width="4"/>
+  <path d="M139 293 Q188 308 235 292 L237 306 Q190 320 137 306Z" fill="#6d4d4a"/>
+  <rect x="178" y="300" width="22" height="16" rx="3" fill="#e7bf76"/>
+  <rect x="184" y="304" width="10" height="8" fill="#70534b"/>
+  <path d="M169 200 L167 237 Q188 252 207 234 L204 200Z" fill="url(#skin)"/>
+  <path d="M132 145 Q111 138 114 163 Q114 183 135 182 M234 145 Q258 139 253 166 Q250 184 234 181" fill="url(#skin)" stroke="#644951" stroke-width="4"/>
+  <path d="M131 117 Q185 78 238 119 L236 173 Q227 218 186 224 Q144 216 131 174Z" fill="url(#skin)" stroke="#634653" stroke-width="4"/>
+  <path d="M126 161 Q103 107 133 81 Q162 46 207 66 Q253 67 251 121 L238 163 222 117 Q184 139 160 109 Q146 135 126 138Z" fill="url(#hair)" stroke="#353044" stroke-width="5"/>
+  <path d="M143 96 Q177 73 212 88" fill="none" stroke="#977057" stroke-width="7" stroke-linecap="round"/>
+  <path d="M148 153 Q157 147 166 152 M202 152 Q212 147 220 152" fill="none" stroke="#62424a" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="158" cy="165" rx="6" ry="9" fill="#253b49"/><ellipse cx="212" cy="165" rx="6" ry="9" fill="#253b49"/>
+  <circle cx="160" cy="162" r="2" fill="#fff5dd"/><circle cx="214" cy="162" r="2" fill="#fff5dd"/>
+  <path d="M182 170 L178 184 187 186 M174 199 Q187 205 200 196" fill="none" stroke="#ae6f6e" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="146" cy="184" rx="10" ry="5" fill="#e89687" opacity=".5"/><ellipse cx="221" cy="184" rx="10" ry="5" fill="#e89687" opacity=".5"/>
+  <path d="M148 226 Q181 240 221 223 L232 244 Q194 268 144 245Z" fill="url(#scarf)" stroke="#9b5e5a" stroke-width="4"/>
+  <path d="M211 248 Q240 263 247 307 L223 298 211 310 Q218 275 193 257Z" fill="url(#scarf)" stroke="#9b5e5a" stroke-width="4"/>
+</svg>

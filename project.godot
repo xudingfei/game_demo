@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="shaders"
-run/main_scene="uid://c7b7md6sso7m4"
+run/main_scene="res://pixel_art_lab/pixel_art_demo.tscn"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 

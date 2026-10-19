@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="armor" x1="0" y1="0" x2="0.8" y2="1"><stop stop-color="#b5c6bf"/><stop offset=".45" stop-color="#6c8b89"/><stop offset="1" stop-color="#344c5a"/></linearGradient>
+    <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#526576"/><stop offset="1" stop-color="#202c3d"/></linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2=".3" y2="1"><stop stop-color="#ffcd79"/><stop offset="1" stop-color="#c66a44"/></linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e3e6d5"/><stop offset=".42" stop-color="#82949b"/><stop offset="1" stop-color="#364a5d"/></linearGradient>
+    <radialGradient id="lens"><stop stop-color="#d0fff1"/><stop offset=".48" stop-color="#66e1cb"/><stop offset="1" stop-color="#26788c"/></radialGradient>
+  </defs>
+  <!-- 原创六足火炮机甲。透明背景、平滑装甲渐变、关节与高对比细节用于像素转换。 -->
+  <g stroke="#202b3d" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- 后侧两足：单独露出轮廓，避免被炮塔遮住。 -->
+    <path d="M189 241 L157 192 133 180 84 227 96 241 141 211 163 254Z" fill="url(#dark)"/>
+    <path d="M170 225 L150 193 136 188 111 212 126 222 145 208 156 237Z" fill="url(#armor)"/>
+    <circle cx="142" cy="198" r="13" fill="#384e60"/><circle cx="142" cy="198" r="5" fill="#93b5b3" stroke="none"/>
+    <path d="M86 225 L104 237 98 250 64 252 59 245Z" fill="url(#dark)"/>
+    <path d="M315 240 L365 193 392 181 443 221 432 242 388 211 340 258Z" fill="url(#dark)"/>
+    <path d="M338 218 L377 187 395 189 419 211 406 223 386 207 351 235Z" fill="url(#armor)"/>
+    <circle cx="389" cy="200" r="13" fill="#384e60"/><circle cx="389" cy="200" r="5" fill="#93b5b3" stroke="none"/>
+    <path d="M432 224 L448 224 466 244 461 252 429 250 423 239Z" fill="url(#dark)"/>
+    <!-- 中侧两足和液压杆。 -->
+    <path d="M177 261 L109 275 89 304 55 361 72 373 120 320 132 306 188 299Z" fill="url(#dark)"/>
+    <path d="M160 269 L109 282 100 302 122 319 139 300 174 294Z" fill="url(#armor)"/>
+    <path d="M102 320 L77 353" fill="none" stroke="#b3c9c5" stroke-width="7"/>
+    <circle cx="108" cy="306" r="18" fill="url(#orange)"/><circle cx="108" cy="306" r="8" fill="#334454"/>
+    <path d="M54 357 L75 365 82 382 67 391 32 389 31 379Z" fill="url(#armor)"/>
+    <path d="M40 384 L66 383" fill="none" stroke="#202b3d" stroke-width="3"/>
+    <path d="M328 264 L401 278 426 300 466 349 449 369 403 323 383 312 318 299Z" fill="url(#dark)"/>
+    <path d="M341 273 L403 284 415 302 395 322 378 301 337 297Z" fill="url(#armor)"/>
+    <path d="M419 321 L444 349" fill="none" stroke="#b3c9c5" stroke-width="7"/>
+    <circle cx="409" cy="307" r="18" fill="url(#orange)"/><circle cx="409" cy="307" r="8" fill="#334454"/>
+    <path d="M450 348 L468 348 487 372 482 386 449 385 438 374Z" fill="url(#armor)"/>
+    <path d="M455 378 L477 378" fill="none" stroke="#202b3d" stroke-width="3"/>
+    <!-- 主底盘。 -->
+    <path d="M169 238 L220 214 301 215 352 246 344 299 303 333 213 337 165 305Z" fill="url(#dark)"/>
+    <path d="M166 245 L219 222 301 225 349 248 325 286 267 307 195 287Z" fill="url(#armor)"/>
+    <path d="M174 258 L199 279 193 301 171 288Z" fill="url(#orange)"/>
+    <path d="M317 284 L345 260 342 291 318 311Z" fill="url(#orange)"/>
+    <path d="M203 292 L261 309 311 294 309 319 261 336 204 320Z" fill="#344958"/>
+    <path d="M226 310 L248 316 M226 318 L248 324 M276 315 L296 309 M276 323 L296 317" stroke="#172735" stroke-width="4"/>
+    <!-- 前侧两足：大关节、伸缩小腿、落地脚爪。 -->
+    <path d="M221 300 L201 348 178 371 140 443 117 431 145 353 178 301Z" fill="url(#dark)"/>
+    <path d="M190 304 L218 316 195 360 176 380 148 361 169 326Z" fill="url(#armor)"/>
+    <path d="M177 384 L149 430" stroke="#c6d4c8" stroke-width="8"/>
+    <path d="M157 375 L138 424" stroke="#526c76" stroke-width="8"/>
+    <circle cx="170" cy="368" r="22" fill="url(#dark)"/><circle cx="170" cy="368" r="13" fill="url(#orange)"/><circle cx="170" cy="368" r="5" fill="#334454" stroke="none"/>
+    <path d="M121 425 L145 433 153 456 141 469 94 469 86 458 102 439Z" fill="url(#armor)"/>
+    <path d="M95 456 L113 456 117 443 M125 458 L141 458" fill="none" stroke-width="4"/>
+    <path d="M287 307 L307 351 329 376 369 444 391 429 362 353 330 301Z" fill="url(#dark)"/>
+    <path d="M316 304 L289 319 313 361 334 381 362 361 340 325Z" fill="url(#armor)"/>
+    <path d="M332 386 L361 431" stroke="#c6d4c8" stroke-width="8"/>
+    <path d="M352 376 L372 424" stroke="#526c76" stroke-width="8"/>
+    <circle cx="340" cy="368" r="22" fill="url(#dark)"/><circle cx="340" cy="368" r="13" fill="url(#orange)"/><circle cx="340" cy="368" r="5" fill="#334454" stroke="none"/>
+    <path d="M369 432 L390 425 410 443 424 459 414 470 368 469 356 457Z" fill="url(#armor)"/>
+    <path d="M368 458 L384 458 M393 443 L397 456 413 456" fill="none" stroke-width="4"/>
+    <!-- 炮塔转盘、侧舱与装甲。 -->
+    <ellipse cx="258" cy="246" rx="75" ry="30" fill="#273948"/>
+    <ellipse cx="258" cy="235" rx="73" ry="28" fill="url(#steel)"/>
+    <path d="M199 190 L240 162 294 165 332 193 325 235 275 256 209 233Z" fill="url(#armor)"/>
+    <path d="M199 190 L245 203 275 256 209 233Z" fill="#4b6870"/>
+    <path d="M245 203 L291 184 332 193 325 235 275 256Z" fill="#66878a"/>
+    <path d="M211 181 L242 165 280 168 256 183Z" fill="#d4d6b9" stroke-width="3"/>
+    <path d="M210 200 L229 207 237 225 214 218Z" fill="url(#orange)" stroke-width="3"/>
+    <path d="M286 211 L315 199 314 220 290 231Z" fill="#243b4b" stroke-width="3"/>
+    <path d="M291 214 L309 207 M293 222 L308 216" stroke="#91a8a4" stroke-width="3"/>
+    <circle cx="268" cy="221" r="12" fill="#203340"/><circle cx="268" cy="221" r="7" fill="url(#lens)" stroke="none"/>
+    <!-- 炮管斜向右上，炮口与六足轮廓清晰分离。 -->
+    <path d="M267 175 L285 154 311 165 311 189 293 202 272 194Z" fill="url(#dark)"/>
+    <path d="M283 166 L366 105 386 128 302 190Z" fill="url(#steel)"/>
+    <path d="M289 172 L370 113" fill="none" stroke="#d7e2d4" stroke-width="4"/>
+    <path d="M306 149 L318 140 337 165 324 174Z" fill="url(#dark)" stroke-width="3"/>
+    <path d="M346 119 L360 108 379 134 366 144Z" fill="url(#orange)" stroke-width="3"/>
+    <path d="M364 103 L392 81 418 85 430 105 410 132 385 136Z" fill="url(#armor)"/>
+    <path d="M392 81 L418 85 430 105 405 106Z" fill="#c9d7cb"/>
+    <path d="M405 106 L430 105 410 132 385 136Z" fill="#415c6b"/>
+    <path d="M405 87 L416 90 422 101 409 99Z" fill="#142636" stroke-width="3"/>
+    <path d="M382 110 L396 99 M389 120 L403 109" stroke="#263e4f" stroke-width="4"/>
+    <!-- 天线、传感器、铆钉；无需文字即可形成识别点。 -->
+    <path d="M217 174 L202 113" stroke="#334958" stroke-width="5"/>
+    <circle cx="201" cy="109" r="5" fill="#f7c36c" stroke-width="2"/>
+    <path d="M235 169 L231 133 246 130 251 163Z" fill="url(#dark)" stroke-width="3"/>
+    <path d="M233 136 L243 134 245 143 235 146Z" fill="url(#lens)" stroke-width="2"/>
+    <circle cx="180" cy="253" r="3" fill="#cbd9c7" stroke="none"/>
+    <circle cx="336" cy="250" r="3" fill="#cbd9c7" stroke="none"/>
+    <circle cx="212" cy="228" r="3" fill="#cbd9c7" stroke="none"/>
+    <circle cx="317" cy="229" r="3" fill="#cbd9c7" stroke="none"/>
+    <path d="M198 337 L190 351 M320 338 L328 351" stroke="#d5d5b3" stroke-width="4"/>
+  </g>
+</svg>
